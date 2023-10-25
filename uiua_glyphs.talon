@@ -1,0 +1,1 @@
+{user.uiua_glyph_words}: insert(user.uiua_glyph_words)
