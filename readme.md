@@ -1,5 +1,8 @@
 # Uiua Speech Input
 
+
+[![Uiua-Talon Youtube Intro](https://img.youtube.com/vi/-VOxSNyaLTg/0.jpg)](https://www.youtube.com/watch?v=-VOxSNyaLTg)
+
 ## Usage Instructions
 
 1. Download `Talon` <https://talonvoice.com/>
