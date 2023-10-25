@@ -1,15 +1,16 @@
 # Uiua Speech Input
 
-Instructions
+## Usage Instructions
 
-1. install `Talon`;
-   - Follow the download/install instructions on the [unofficial wiki](https://talon.wiki/getting_started/)
+1. Download `Talon` <https://talonvoice.com/>
+2. Follow the install instructions on the
+[unofficial wiki](https://talon.wiki/getting_started/)
    - DO follow the `Configure a Speech Recognition Engine` step
      (or it literally does nothing without notifying you about the problem)
    - DON'T follow the `Install a Talon user file set` step
      - I haven't checked for conflicting command words, and
      - unless you intend to spend hours learning the default command set, it is not needed.
-2. Open the the `user` directory
+3. Open the the `user` directory using bash or powershell;
 
 ```bash
 cd ~/.talon/user
@@ -21,14 +22,16 @@ or
 cd %AppData%\Talon\user
 ```
 
-3. Clone this repository
+4. Clone this repository
 
 ```powershell
 git clone https://github.com/thehappycheese/uiua-talon
 ```
 
-4. Restart Talon
-5. Open a text editor, make sure your mic is on, and say 
+5. Restart Talon
+6. Open a text editor
+7. make sure your mic is on
+8. Say 
 
 `"one strand two strand three"`
 
@@ -39,6 +42,7 @@ git clone https://github.com/thehappycheese/uiua-talon
 `"save"`
 
 
+## Important Notes
 
 There are some unexpected issues with the Uiua names!
 
