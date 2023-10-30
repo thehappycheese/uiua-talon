@@ -1,7 +1,12 @@
 # Uiua Speech Input
 
-
 [![Uiua-Talon Youtube Intro](https://img.youtube.com/vi/-VOxSNyaLTg/0.jpg)](https://www.youtube.com/watch?v=-VOxSNyaLTg)
+
+## Changes Since Youtube Video
+
+- [./edit/edit.talon](./edit/edit.talon) adopted a minimal subset of the talon default scripts for cursor movements (eg `"go way left"`). Just delete the 'edit' folder if you don't want these. They are copy pasted from `https://github.com/talonhub/community` and I hope the authors don't mind this form of redistribution. Happy to remove them if anyone feels I shouldn't have them here.
+
+- [./keys/nicks_keys.talon](./keys/nicks_keys.talon) minimal set of keys like `"backspace"` and `"escape"`. Just delete the 'keys' folder if you don't want these.
 
 ## Usage Instructions
 
@@ -11,8 +16,7 @@
    - DO follow the `Configure a Speech Recognition Engine` step
      (or it literally does nothing without notifying you about the problem)
    - DON'T follow the `Install a Talon user file set` step
-     - I haven't checked for conflicting command words, and
-     - unless you intend to spend hours learning the default command set, it is not needed.
+     - I have tried it now, it works ok if you do want to use it, just make sure you delete the 'keys' and 'edit' folder in this repo.
 3. Open the the `user` directory using bash or powershell;
 
 ```bash
